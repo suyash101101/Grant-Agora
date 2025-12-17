@@ -6,9 +6,6 @@
   - **Payment:** X (USDC)
 - **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 2
 
-> [!IMPORTANT]
-> *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
-
 ## Project Overview :page_facing_up:
 
 ### Overview
