@@ -18,8 +18,8 @@
 ### Project Details
 
 **Mockups/Designs:**
-- UI Dashboard: `assets/Screenshot 2025-11-04 at 7.31.33 PM.png`
-- Commit Result: `assets/WhatsApp Image 2025-11-04 at 20.18.35.jpg`
+- UI Dashboard: `assets/UI.png`
+- Commit Result: `assets/commit.jpg`
 - App Workflow: `assets/App_Workflow.png`
 - XCM Workflow: `assets/XCM_Workflow.png`
 - OCW Workflow: `assets/OCW_Workflow.png`
