@@ -18,11 +18,10 @@
 ### Project Details
 
 **Mockups/Designs:**
-- UI Dashboard: `assets/UI.png`
-- Commit Result: `assets/commit.jpg`
 - App Workflow: `assets/App_Workflow.png`
 - XCM Workflow: `assets/XCM_Workflow.png`
 - OCW Workflow: `assets/OCW_Workflow.png`
+- Logo: `assets/logo.png`
 
 **Video Demo:**
 - [Watch Agora Demo Video](https://www.youtube.com/watch?v=3V9ne5yBJFs&t=2s)
