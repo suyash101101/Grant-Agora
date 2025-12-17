@@ -110,8 +110,6 @@ X
 | -----: | ----------- | ------------- |
 | **0a.** | License | MIT-0 / Apache 2.0 |
 | **0b.** | Documentation | Inline docs for `agora` pallet and a guide on running the local Zombienet setup. |
-| **0c.** | Testing Guide | Unit tests for `agora` pallet and integration tests using Zombienet. |
-| **0d.** | Docker | Dockerfile for the collator node. |
 | 1. | Code Cleanup | Clean hackathon code and fix minor bugs in the `agora` pallet. |
 | 2. | Ecosystem Survey | Reach Out to parachains and ask them for desired additional features|
 | 3. | Professional UI | Improve and make a professional React-based UI dashboard. |
@@ -125,15 +123,15 @@ X
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | MIT-0 / Apache 2.0 |
-| **0b.** | Documentation | Guide on XCM setup and cross-chain job demo. |
-| **0c.** | Testing Guide | XCM integration tests. |
-| **0d.** | Docker | Updated Dockerfile. |
+| **0a.** | Dockerfile | Dockerize the application |
+| **0b.** | Docker Compose | A Compose configuration for running the parachain and its dependencies |
+| **0c.** | Docker Documentation | Document the full Docker workflow, including build, run, logs, and network setup for local and CI environments. |
+| **0d.** | Docker Testing Guide |Provide a test guide for validating the Dockerized parachain, including integration and networking checks. |
 | 0e. | Article | Blog post explaining the architecture and use cases. |
 | 1. | OCW | Improve and make robust Off-Chain Worker (OCW) logic for automatic job execution and verification. |
 | 2. | Onboard Parachains | Onboard other parachains via XCM and add additional functionality if needed based on survey results. |
 | 3. | Security | Slashing mechanism for dishonest workers and reputation system. |
-| 4. | Demo Scripts | JS scripts to automate the cross-chain demo (setup HRMP, fund accounts). |
+| 4. | Unit Tests | Expand and strengthen the unit test suite to improve reliability and coverage. |
 
 ## Future Plans
 
