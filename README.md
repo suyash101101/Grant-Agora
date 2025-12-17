@@ -95,14 +95,14 @@ X
 
 ### Overview
 
-- **Total Estimated Duration:** 5 months
+- **Total Estimated Duration:** 4 months
 - **FTE:** 2
 - **Total Costs:** 30,000 USD
 - **DOT %:** 50%
 
 ### Milestone 1 — Core Functionality & Local Testnet
 
-- **Estimated duration:** 1.5 months
+- **Estimated duration:** 2 months
 - **FTE:** 2
 - **Costs:** 15,000 USD
 
@@ -113,13 +113,13 @@ X
 | **0c.** | Testing Guide | Unit tests for `agora` pallet and integration tests using Zombienet. |
 | **0d.** | Docker | Dockerfile for the collator node. |
 | 1. | Code Cleanup | Clean hackathon code and fix minor bugs in the `agora` pallet. |
-| 2. | Robust OCW | Improve and make robust Off-Chain Worker (OCW) logic for job execution and verification. |
+| 2. | Ecosystem Survey | Reach Out to parachains and ask them for desired additional features|
 | 3. | Professional UI | Improve and make a professional React-based UI dashboard. |
 | 4. | Deployment | Basic deployment and setup of RPC Endpoint. |
 
-### Milestone 2 — XCM Integration & Hardening
+### Milestone 2 — OCW & Automation
 
-- **Estimated Duration:** 1.5 months
+- **Estimated Duration:** 2 months
 - **FTE:** 2
 - **Costs:** 15,000 USD
 
@@ -130,7 +130,7 @@ X
 | **0c.** | Testing Guide | XCM integration tests. |
 | **0d.** | Docker | Updated Dockerfile. |
 | 0e. | Article | Blog post explaining the architecture and use cases. |
-| 1. | Customer Survey & Outreach | Conduct customer surveys and talk to other parachains to identify needs and potential integrations. |
+| 1. | OCW | Improve and make robust Off-Chain Worker (OCW) logic for automatic job execution and verification. |
 | 2. | Onboard Parachains | Onboard other parachains via XCM and add additional functionality if needed based on survey results. |
 | 3. | Security | Slashing mechanism for dishonest workers and reputation system. |
 | 4. | Demo Scripts | JS scripts to automate the cross-chain demo (setup HRMP, fund accounts). |
@@ -150,6 +150,4 @@ X
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+- This project was 1st place in "Build Resilient Apps with Polkadot Cloud" Hackathon.
