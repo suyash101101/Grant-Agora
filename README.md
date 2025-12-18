@@ -2,8 +2,8 @@
 
 - **Team Name:** Agora
 - **Payment Details:**
-  - **DOT:** X
-  - **Payment:** X (USDC)
+  - **DOT:** 1QvwVTx1G4ZhPjE68zEkZDjcLFkJwTMkgKk8FYWWKmsGjcc
+  - **Payment:** 1QvwVTx1G4ZhPjE68zEkZDjcLFkJwTMkgKk8FYWWKmsGjcc (USDC)
 - **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 2
 
 ## Project Overview :page_facing_up:
