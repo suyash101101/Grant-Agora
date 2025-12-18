@@ -145,6 +145,5 @@ X
 
 ## Additional Information :heavy_plus_sign:
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - This project was 1st place in "Build Resilient Apps with Polkadot Cloud" Hackathon.
