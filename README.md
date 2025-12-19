@@ -141,11 +141,6 @@ DOT as Universal Payment Layer: Job bounties can be denominated in DOT for cross
 - Expansion of job types (e.g., more complex ML inference).
 - Integration with more parachains.
 
-## Referral Program :moneybag:
-
-- **Referrer:** kegan
-- **Payment Address:** X
-
 ## Additional Information :heavy_plus_sign:
 
 
