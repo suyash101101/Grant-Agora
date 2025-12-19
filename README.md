@@ -115,7 +115,7 @@ DOT as Universal Payment Layer: Job bounties can be denominated in DOT for cross
 | 1. | Code Revamp | Revise the hackathon implementation and resolve minor defects within the `agora` pallet. |
 | 2. | Ecosystem Survey | Reach Out to parachains and ask them for desired additional features. |
 | 3. | Professional UI | Improve and make a professional React-based UI dashboard. |
-| 4. | Deployment | Basic deployment and setup of RPC Endpoint. |
+| 4. | Deployment | Deploy Agora as a parathread on a public Polkadot test network and exposing a stable public RPC endpoint. |
 
 ### Milestone 2 — OCW & Automation
 
@@ -133,7 +133,7 @@ DOT as Universal Payment Layer: Job bounties can be denominated in DOT for cross
 | 1. | OCW | Improve and make robust Off-Chain Worker (OCW) logic for automatic job execution and verification. |
 | 2. | Agora Client Pallet | Build a minimal Agora Client pallet that other parachains can plug into their runtime to send XCM job requests and receive results with no additional integration work. |
 | 3. | Reputation & Security | Rework the reputation and slashing logic to compound penalties for dishonest workers and increase slashing rates |
-| 4. | Tests | unit tests for all modules and End-to-end integration test that simulates a full local job lcommit, reveal, finalize then consensus, rewards, and slashing across multiple workers |
+| 4. | Tests | unit tests for all modules and End-to-end integration test that simulates a full local job_commit, reveal, finalize then consensus, rewards, and slashing across multiple workers |
 
 ## Future Plans
 
