@@ -23,9 +23,9 @@
 - [Watch Agora Demo Video](https://www.youtube.com/watch?v=3V9ne5yBJFs&t=2s)
 - [Watch Agora Walkthrough](https://app.supademo.com/demo/cm6xuj2sr01o8pegv3s411vap)
 
-- App Workflow: `assets/App_Workflow.png`
-- Dashboard: `assets/dashboardUI.png`
-- Job submission UI: `assets/jobUI.png`
+- App Workflow: `https://drive.google.com/file/d/17Fb2KbcJln9lEmsJ8lFXYMeEEVOkCHt_/view?usp=drive_link`
+- Dashboard: `https://drive.google.com/file/d/16tMUbN2GPYmBoMoPvyiPBAIZ66G6gCDt/view?usp=drive_link`
+- Job submission UI: `https://drive.google.com/file/d/1eOcAyvX3cI-6YfwLqkAY1xymzIUTWI2V/view?usp=drive_link`
 
 **Architecture:**
 - **Runtime:** FRAME-based Substrate runtime including `agora` pallet.
