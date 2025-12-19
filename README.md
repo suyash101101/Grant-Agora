@@ -112,8 +112,8 @@ DOT as Universal Payment Layer: Job bounties can be denominated in DOT for cross
 | -----: | ----------- | ------------- |
 | **0a.** | License | MIT-0 / Apache 2.0 |
 | **0b.** | Documentation | Inline docs for `agora` pallet and a guide on running the local Zombienet setup. |
-| 1. | Code Cleanup | Clean hackathon code and fix minor bugs in the `agora` pallet. |
-| 2. | Ecosystem Survey | Reach Out to parachains and ask them for desired additional features|
+| 1. | Code Revamp | Revise the hackathon implementation and resolve minor defects within the `agora` pallet. |
+| 2. | Ecosystem Survey | Reach Out to parachains and ask them for desired additional features. |
 | 3. | Professional UI | Improve and make a professional React-based UI dashboard. |
 | 4. | Deployment | Basic deployment and setup of RPC Endpoint. |
 
@@ -131,9 +131,9 @@ DOT as Universal Payment Layer: Job bounties can be denominated in DOT for cross
 | **0d.** | Docker Testing Guide |Provide a test guide for validating the Dockerized parachain, including integration and networking checks. |
 | 0e. | Article | Blog post explaining the architecture and use cases. |
 | 1. | OCW | Improve and make robust Off-Chain Worker (OCW) logic for automatic job execution and verification. |
-| 2. | Onboard Parachains | Onboard other parachains via XCM and add additional functionality if needed based on survey results. |
-| 3. | Security | Slashing mechanism for dishonest workers and reputation system. |
-| 4. | Unit Tests | Expand and strengthen the unit test suite to improve reliability and coverage. |
+| 2. | Agora Client Pallet | Build a minimal Agora Client pallet that other parachains can plug into their runtime to send XCM job requests and receive results with no additional integration work. |
+| 3. | Reputation & Security | Rework the reputation and slashing logic to compound penalties for dishonest workers and increase slashing rates |
+| 4. | Tests | unit tests for all modules and End-to-end integration test that simulates a full local job lcommit, reveal, finalize then consensus, rewards, and slashing across multiple workers |
 
 ## Future Plans
 
