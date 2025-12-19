@@ -18,14 +18,14 @@
 ### Project Details
 
 **Mockups/Designs:**
-- App Workflow: `assets/App_Workflow.png`
-- XCM Workflow: `assets/XCM_Workflow.png`
-- OCW Workflow: `assets/OCW_Workflow.png`
-- Logo: `assets/logo.png`
 
 **Video Demo:**
 - [Watch Agora Demo Video](https://www.youtube.com/watch?v=3V9ne5yBJFs&t=2s)
 - [Watch Agora Walkthrough](https://app.supademo.com/demo/cm6xuj2sr01o8pegv3s411vap)
+
+- App Workflow: `assets/App_Workflow.png`
+- Dashboard: `assets/dashboardUI.png`
+- Job submission UI: `assets/jobUI.png`
 
 **Architecture:**
 - **Runtime:** FRAME-based Substrate runtime including `agora` pallet.
