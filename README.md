@@ -3,7 +3,7 @@
 - **Team Name:** Agora
 - **Payment Details:**
   - **DOT:** 1QvwVTx1G4ZhPjE68zEkZDjcLFkJwTMkgKk8FYWWKmsGjcc
-  - **Payment:** 1QvwVTx1G4ZhPjE68zEkZDjcLFkJwTMkgKk8FYWWKmsGjcc (USDC)
+  - **Payment (USDC) :** 1QvwVTx1G4ZhPjE68zEkZDjcLFkJwTMkgKk8FYWWKmsGjcc 
 - **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 2
 
 ## Project Overview :page_facing_up:
@@ -46,9 +46,16 @@
 **PoC/MVP:**
 - The current repository serves as the MVP, featuring a working local testnet (Zombienet) with XCM enabled, a functional `agora` pallet with commit-reveal mechanism, and a basic UI.
 
-**What it is NOT:**
-- It is not a general-purpose smart contract platform (though it uses a pallet).
-- It is not a TEE-based solution (it uses crypto-economic incentives).
+## Need for This
+Parachains currently have no standardized way to outsource arbitrary computation tasks trustlessly within the Polkadot ecosystem. Teams either build custom solutions, use centralized providers.Existing decentralized computation requires trusted execution environments (specialized hardware, supply chain risks, limited validator sets). 
+
+- TEE-based (Phala): Hardware dependencies, limited validator sets.
+- Centralized oracles: Single points of failure, trust assumptions
+
+## How We Help DOT
+All computation workers must stake DOT as collateral for honest execution. Dishonest workers face slashing of staked DOT plus reputation decay. Honest workers earn bounties and build reputation to access higher-value jobs
+
+DOT as Universal Payment Layer: Job bounties can be denominated in DOT for cross-parachain compatibility. When any parachain submits a computation job with a DOT bounty, XCM transfers it to Agora's sovereign account. After consensus verification, honest workers split the bounty. 
 
 ### Ecosystem Fit
 
@@ -67,19 +74,15 @@
 ### Contact
 
 - **Contact Name:** Suyash D Nahar
-- **Contact Email:** nahsrsuyash@gmail.com, nikhilkottoli2005@gmail.com
-- **Website:** X
-
-### Team's experience
-
-X
+- **Contact Email:** nahsrsuyash@gmail.com
+- **Contact Name:** Nikhil Kottoli
+- **Contact Email:** nikhilkottoli2005@gmail.com
 
 ### Team Code Repos
 
-- https://github.com/paritytech/polkadot-sdk-parachain-template (Base template)
 - https://github.com/suyash101101/Agora
 
-### Team LinkedIn Profiles (if available)
+### Team LinkedIn Profiles
 
 - https://www.linkedin.com/in/suyash101/
 - https://www.linkedin.com/in/nikhil-kottoli-92552128a/
